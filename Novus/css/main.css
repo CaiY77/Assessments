@@ -1,0 +1,59 @@
+h1,h2{
+  text-align: center;  
+}
+#main-contain {
+    margin-top: 20px;
+    border: solid #2c3e50 3px; 
+    border-radius: 20px;
+    padding: 20px 2% 0 2%;
+    display: none;
+}
+
+.single-bar{
+    display: flex;
+    margin-bottom: 20px;
+}
+.name{
+    min-width: 4%;
+    margin-right: 2px;
+}
+.bar{
+    height: 50px;
+    background: #2c3e50;
+    text-align:left;
+}
+.bar-label{
+    margin: 0 auto;
+    padding: 15px 0 0 10px;
+    color: white;
+}
+.animation{
+    width: 100%;
+    animation: slide 1s ease-in-out;
+}
+form{
+    text-align: center;
+}
+select{
+    padding: 0.5em;
+    color:white;
+    cursor: pointer;
+    width: 15em;
+    height: 3em;
+    line-height: 3;
+    background: #2c3e50;
+    border-radius: .25em;
+    text-align: center;
+}
+option{
+    padding: 10px;
+}
+
+@keyframes slide {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
